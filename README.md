@@ -25,19 +25,32 @@ VoxoLaunch is a Python-based, voice-controlled app launcher that allows users to
    cd voxolaunch
    ```
 
-2. **Install Dependencies:** Install the required Python libraries using pip:
+2. **Create and activate virtual environment:**
+
+   - For Windows systems:
+     ```bash
+     python -m venv .venv
+     .venv\Scripts\activate
+     ```
+   - For Linux/Unix based systems:
+     ```bash
+     python3 -m venv .venv
+     source .venv/bin/activate
+     ```
+
+3. **Install Dependencies:** Install the required Python libraries using pip:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Set Up Environment Variables:**
+4. **Set Up Environment Variables:**
    - Create a .env file in the project root.
    - Add your Wit.ai API key:
      ```bash
      WIT_API_KEY=your_wit_ai_api_key_here
      ```
-4. **Ensure Microphone Access:**
+5. **Ensure Microphone Access:**
    - Ensure your system has a working microphone.
    - If needed, grant microphone access permissions to Python.
 
