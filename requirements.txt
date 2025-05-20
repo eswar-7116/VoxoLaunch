@@ -1,0 +1,6 @@
+SpeechRecognition~=3.14.3
+pyttsx4~=3.0.15
+pywhatkit~=5.4
+appopener~=1.7
+pyaudio~=0.2.14
+python-dotenv~=1.1.0
